@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace ThreadDispatcher
 {
-    class Program
+    class ThreadDispatcher
     {
         public static List<ThreadManager> ThreadManagerPool = new List<ThreadManager>();
         public static string GetManagerStatus(ThreadManager Manager)
