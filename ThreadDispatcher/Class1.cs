@@ -11,7 +11,7 @@ namespace ThreadDispatcher
         public static List<ThreadManager> ThreadManagerPool = new List<ThreadManager>();
         public static string GetManagerStatus(ThreadManager Manager)
         {
-            return Manager.Status;
+            return Manager.Status; 
         }
 
         public static dynamic GetManagerOutcome(ThreadManager Manager)
