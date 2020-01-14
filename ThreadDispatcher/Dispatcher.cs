@@ -4,9 +4,9 @@ using System.Dynamic;
 using System.Threading;
 using System.Linq;
 
-namespace ThreadDispatcher
+namespace TheBitBrine
 {
-    class ThreadDispatcher
+    public class ThreadDispatcher
     {
         public static List<ThreadManager> ThreadManagerPool = new List<ThreadManager>();
         public static string GetManagerStatus(ThreadManager Manager)
