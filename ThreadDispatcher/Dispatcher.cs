@@ -77,15 +77,6 @@ namespace TheBitBrine
             ThreadManagerPool.Add(Target);
         }
 
-        public static void ThreadDummy(ThreadManager Intake)
-        {
-            while (true)
-            {
-                Intake.Status = Intake.Thread.Name + " - " + DateTime.Now.Second.ToString();
-                Thread.Sleep(100);
-            }
-        }
-
         public class ThreadManager
         {
             public Thread Thread;
